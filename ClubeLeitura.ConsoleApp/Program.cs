@@ -37,13 +37,17 @@ namespace ClubeLeitura.ConsoleApp
                     telaSelecionada.VisualizarRegistros();
 
                 else if (opcaoCadastro == "3")
-                    telaSelecionada.EditarRegistro();
+                {
+                    IEditavel telaSelecionadaCast = telaSelecionada as IEditavel;
+                    telaSelecionadaCast.EditarRegistro();
+                }
 
                 else if (opcaoCadastro == "4")
                 {
-                    ICadastravel x = (ICadastravel)telaSelecionada;
-                    x.ExcluirRegistro();
+                    IEditavel telaSelecionadaCast = telaSelecionada as IEditavel;
+                    telaSelecionadaCast.ExcluirRegistro();
                 }
+
 
 
                 Console.Clear();

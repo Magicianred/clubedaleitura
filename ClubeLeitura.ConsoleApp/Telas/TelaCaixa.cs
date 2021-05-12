@@ -21,6 +21,8 @@ namespace ClubeLeitura.ConsoleApp.Telas
             Console.WriteLine("2 - Visualizar caixas registradas");
             Console.WriteLine("3 - Editar caixas registradas");
             Console.WriteLine("S - Voltar para o início");
+            Console.WriteLine("-------------------------------------------");
+            Console.Write("O que deseja fazer?");
 
             string strOpcao = Console.ReadLine();
 
@@ -52,13 +54,20 @@ namespace ClubeLeitura.ConsoleApp.Telas
         {
             ConfigurarTela("Editando uma caixa...");
 
+            VisualizarRegistros();
+
             Console.Write("Digite o ID da caixa que deseja editar: ");
             int id = Convert.ToInt32(Console.ReadLine());
 
             InserirNovoRegistro(id);
         }
 
-        public void MontarCabecalhoTabela()
+        public void ExcluirRegistro()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void MontarCabecalhoTabela()
         {
             Console.ForegroundColor = ConsoleColor.Red;
 
@@ -93,6 +102,5 @@ namespace ClubeLeitura.ConsoleApp.Telas
         }
 
     }
-
 
 }

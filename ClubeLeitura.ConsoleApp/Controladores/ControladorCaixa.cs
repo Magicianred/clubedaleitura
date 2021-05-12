@@ -17,7 +17,7 @@ namespace ClubeLeitura.ConsoleApp.Controladores
             }
             else
             {
-                posicao = ObterPosicaoExistente(new Revista(id));
+                posicao = ObterPosicaoExistente(new Caixa(id));
                 novaCaixa = (Caixa)registros[posicao];
             }
 

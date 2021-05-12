@@ -10,9 +10,8 @@ namespace ClubeLeitura.ConsoleApp.Telas
     {
         void InserirNovoRegistro(int id);
         void EditarRegistro();
-        void ExcluirRegistr();
+        void ExcluirRegistro();
         void VisualizarRegistros();
-        void MontarCabecalhoTabela();
         string ObterOpcao();
     }
 }

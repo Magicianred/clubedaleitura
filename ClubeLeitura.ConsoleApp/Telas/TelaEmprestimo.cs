@@ -7,7 +7,7 @@ using ClubeLeitura.ConsoleApp.Controladores;
 
 namespace ClubeLeitura.ConsoleApp.Telas
 {
-    public class TelaEmprestimo : TelaBase, ICadastravel
+    public class TelaEmprestimo : TelaBase
     {
         private readonly ControladorEmprestimo ctrlEmprestimo;
 
@@ -21,7 +21,7 @@ namespace ClubeLeitura.ConsoleApp.Telas
             throw new NotImplementedException();
         }
 
-        public void ObterOpcao()
+        public string ObterOpcao()
         {
             throw new NotImplementedException();
         }
@@ -32,11 +32,6 @@ namespace ClubeLeitura.ConsoleApp.Telas
         }
 
         public void MontarCabecalhoTabela()
-        {
-            throw new NotImplementedException();
-        }
-
-        string ICadastravel.ObterOpcao()
         {
             throw new NotImplementedException();
         }

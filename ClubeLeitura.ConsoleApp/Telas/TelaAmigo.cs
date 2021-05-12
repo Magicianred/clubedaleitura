@@ -3,7 +3,7 @@ using ClubeLeitura.ConsoleApp.Controladores;
 
 namespace ClubeLeitura.ConsoleApp.Telas
 {
-    public class TelaAmigo : TelaBase, ICadastravel
+    public class TelaAmigo : TelaBase
     {
         private readonly ControladorAmigo ctrlCrianca;
 
@@ -17,7 +17,7 @@ namespace ClubeLeitura.ConsoleApp.Telas
             throw new NotImplementedException();
         }
 
-        public void MontarCabecalhoTabela()
+        public override void MontarCabecalhoTabela()
         {
             throw new NotImplementedException();
         }

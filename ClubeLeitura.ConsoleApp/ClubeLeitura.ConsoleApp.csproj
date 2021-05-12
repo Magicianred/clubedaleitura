@@ -54,9 +54,8 @@
     <Compile Include="Dominio\Revista.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Telas\ICadastravel.cs" />
     <Compile Include="Telas\IEditavel.cs" />
-    <Compile Include="Telas\TelaCrianca.cs" />
+    <Compile Include="Telas\TelaAmigo.cs" />
     <Compile Include="Telas\TelaEmprestimo.cs" />
     <Compile Include="Telas\TelaCaixa.cs" />
     <Compile Include="Telas\TelaPrincipal.cs" />

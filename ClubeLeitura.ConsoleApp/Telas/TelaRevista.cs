@@ -50,6 +50,8 @@ namespace ClubeLeitura.ConsoleApp.Telas
         {
             ConfigurarTela("Editando uma revista...");
 
+            VisualizarRegistros();
+
             Console.Write("Digite o ID da revista que deseja editar: ");
             int id = Convert.ToInt32(Console.ReadLine());
 
@@ -64,13 +66,15 @@ namespace ClubeLeitura.ConsoleApp.Telas
             Console.WriteLine("2 - Visualizar revistas registradas");
             Console.WriteLine("3 - Editar revistas registradas");
             Console.WriteLine("S - Voltar para o início");
+            Console.WriteLine("-------------------------------------------");
+            Console.Write("O que deseja fazer? ");
 
             string strOpcao = Console.ReadLine();
 
             return strOpcao;
         }
 
-        public void MontarCabecalhoTabela()
+        public override void MontarCabecalhoTabela()
         {
             Console.ForegroundColor = ConsoleColor.Red;
 
@@ -101,5 +105,14 @@ namespace ClubeLeitura.ConsoleApp.Telas
             Console.ReadLine();
         }
 
+        public void ExcluirRegistr()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void ExcluirRegistro()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

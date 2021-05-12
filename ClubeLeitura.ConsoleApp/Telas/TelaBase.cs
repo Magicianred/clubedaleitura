@@ -67,5 +67,9 @@ namespace ClubeLeitura.ConsoleApp.Telas
             Console.ResetColor();
         }
 
+        public virtual void MontarCabecalhoTabela()
+        {
+        }
+
     }
 }
