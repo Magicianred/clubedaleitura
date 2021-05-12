@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ClubeLeitura.ConsoleApp.Controladores.ControladorCaixa" Collapsed="true">
+    <Position X="1.25" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAgAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controladores\ControladorCaixa.cs</FileName>
+      <NewMemberFileName>Controladores\ControladorBase.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.Controladores.ControladorBase" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAABBAAAAAAAAoBAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Controladores\ControladorBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.Controladores.ControladorCrianca" Collapsed="true">
+    <Position X="10.75" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controladores\ControladorCrianca.cs</FileName>
+      <NewMemberFileName>Controladores\ControladorBase.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.Controladores.ControladorEmprestimo">
+    <Position X="7" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controladores\ControladorEmprestimo.cs</FileName>
+      <NewMemberFileName>Controladores\ControladorBase.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ctrlCrianca" />
+      <Field Name="ControladorRevista" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.Controladores.ControladorRevista" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAAEAAAA=</HashCode>
+      <FileName>Controladores\ControladorRevista.cs</FileName>
+      <NewMemberFileName>Controladores\ControladorBase.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
